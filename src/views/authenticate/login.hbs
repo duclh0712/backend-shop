@@ -1,0 +1,24 @@
+<div class="card" style="width:400px;">
+    <div class="card-body" style="flex: 1 !important">
+        <h1 class="text-center">Login</h1>
+        <form method="POST" action="/account/me">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">User name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" name="username"
+                    aria-describedby="emailHelp " required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" name="password"  required>
+            </div>
+            <div class="btn-login text-center">
+
+                <button type="submit" class="btn btn-primary " style="width: 100%;">Login</button>
+            </div>
+
+            <div class="msg text-center py-3">
+                <p>If you have not account <a href="/account/register">Register</a></p>
+            </div>
+        </form>
+    </div>
+</div>
